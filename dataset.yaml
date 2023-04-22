@@ -1,12 +1,13 @@
+# https://universe.roboflow.com/roboflow-100/solar-panels-taxvb
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: .  # dataset root dir
 train: images/train  # train images
 val: images/val  # val images 
-test:  # test images (optional)
+test: images/test # test images (optional)
 
 # Classes
 names:
-  0: solar-panels
+  0: marked-null
   1: Cell
   2: Cell-Multi
   3: No-Anomaly

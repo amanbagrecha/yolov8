@@ -1,0 +1,7 @@
+*.tif
+*.csv
+*.pt
+*.png
+*.txt
+*.jpg
+runs/
