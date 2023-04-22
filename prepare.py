@@ -10,8 +10,8 @@ os.makedirs("datasets/labels/train/", exist_ok=True)
 os.makedirs("datasets/labels/val/", exist_ok=True)
 os.makedirs("datasets/images/train/", exist_ok=True)
 os.makedirs("datasets/images/val/", exist_ok=True)
-os.makedirs('datasets/labels/test/', exist_ok=True)
-os.makedirs('datasets/images/test/', exist_ok=True)
+os.makedirs("datasets/labels/test/", exist_ok=True)
+os.makedirs("datasets/images/test/", exist_ok=True)
 
 for train_dict in data["train"]:
 
